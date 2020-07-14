@@ -53,7 +53,7 @@
       }, 100)
     },
     methods: {
-      // 定时器操作
+      //定时器
       startTimer: function () {
         this.playTimer = window.setInterval(() => {
           this.currentIndex++;
@@ -64,7 +64,9 @@
         window.clearInterval(this.playTimer);
       },
 
-      // 滚动到正确的位置
+      /**
+       * 滚动到正确的位置
+       */
       scrollContent: function (currentPosition) {
         // 0.设置正在滚动
         this.scrolling = true;

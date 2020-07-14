@@ -43,9 +43,9 @@ a {
   visibility: hidden;
 }
 
-.clear-fix {
+/*.clear-fix {
   zoom: 1;
-}
+}*/
 
 .left {
   float: left;
