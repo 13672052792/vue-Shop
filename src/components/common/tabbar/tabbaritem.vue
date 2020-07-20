@@ -46,6 +46,7 @@
     text-align: center;
     font-size: 14px;
     color: black;
+    padding: 3px;
   }
   
   .tab-bar-item img {

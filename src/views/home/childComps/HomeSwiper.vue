@@ -9,6 +9,7 @@
 </template>
 
 <script>
+  //引入轮播相关功能
   import { Swiper, SwiperItem } from 'components/common/swiper'
   export default {
     props: {
